@@ -1,7 +1,7 @@
-# Проект «---»
+# Проект «aod»
 
 ---
-## Ссылка на сайт - [https://vanyusha-pupkin.github.io/---/](https://vanyusha-pupkin.github.io/---/)
+## Ссылка на сайт - [https://vanyusha-pupkin.github.io/aod/](https://vanyusha-pupkin.github.io/aod/)
 
 ## Как использовать
 
