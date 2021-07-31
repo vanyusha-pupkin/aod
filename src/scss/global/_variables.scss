@@ -9,17 +9,17 @@ $p-w-min: 15;
 $p-bp-1:  15;
 $p-bp-2:  15;
 $p-bp-3:  15;
-// $p-w-max: 15;
+$p-w-max: 15;
 
 $padding-width-min: $p-w-min + px;
 $padding-bp-1:      $p-bp-1 + px;
 $padding-bp-2:      $p-bp-2 + px;
 $padding-bp-3:      $p-bp-3 + px;
-// $padding-width-max: $p-w-max + px;
+$padding-width-max: $p-w-max + px;
 
 //SIZE
-$w-layout: 1920;
-$w-max: 1200;
+$w-layout: 1600;
+$w-max: 1100;
 $w-bp-1: 970;
 $w-bp-2: 750;
 $w-bp-3: 420;
@@ -35,7 +35,7 @@ $width-min: $w-min + px;
 
 
 //BREAK POINT - mobile first
-// $bp-1: $w-max + ($p-w-max * 2);
+$bp-1: $w-max + ($p-w-max * 2);
 $bp-1: $w-max + ($p-bp-1 * 2);
 $bp-2: 991.98;
 $bp-3: 767.98;
@@ -50,14 +50,17 @@ $bp-4: 479.98;
 //COLOR
 $color-black: #000000;
 $color-white: #ffffff;
+$color-primary: #64c29e;
+$color-text-base: #848789;
+$color-text-title: #353738;
 
 
 //FONT
-$font-family-base: "Arial", sans-serif;
-$font-size-base: 16px;
-$line-height-base: 140%;
+$font-family-base: "Lato", "Arial", sans-serif;
+$font-size-base: 18px;
+$line-height-base: 34 / 18 * 100%;
 $font-weight-base: 400;
-$font-color-base: $color-black;
+$font-color-base: $color-text-base;
 
 //BACKGROUND
 $body-bg-color: $color-white;
